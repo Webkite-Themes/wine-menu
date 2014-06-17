@@ -475,6 +475,42 @@ $lighterOpacity: rgba(255,255,255,.15);
     .webkite-price-label { width:100%; display:block; margin-top:-2px;}
     }
   }
+  
+/* ie 10/11 modal fixes */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+#webkite-results{
+  .webkite-item-details{
+    left:0;
+    right:0;
+    width:auto;
+    max-width: 700px;
+    top:50%;
+    margin-left:50%;
+    margin-right:-50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    }
+  }
+#webkite-results.xs{
+  .webkite-item-details{
+    max-width:700px;
+    width:auto;
+    left:0;
+    margin-left:50%;
+    margin-right:-50%;
+    }
+  }
+#webkite-results.sm{
+  .webkite-item-details{
+    max-width:700px;
+    width:auto;
+    left:0;
+    margin-left:50%;
+    margin-right:-50%;
+    }
+  }
+}
+
 
 /*************************** DISPLAY RULES */
 #webkite-results.xs {
