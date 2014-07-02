@@ -18,7 +18,10 @@
               <h2 class="webkite-headline">
                 {{~#facet name="Winery"}}
                   {{~#if filterable~}}
-                    <a href="#" class="webkite-add-filter webkite-winery"  data-facet="{{name}}" data-operator="is" data-value="{{displayValue}}">{{displayValue}}</a>
+                    {{~#each values~}}
+                      <a href="#" class="webkite-add-filter webkite-winery"  data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>
+                      {{~#unless @last}}/{{/unless~}}
+                    {{~/each}}
                   {{~else~}}
                     <span class="webkite-winery">{{displayValue}}</span>
                   {{~/if}}

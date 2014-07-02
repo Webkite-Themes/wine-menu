@@ -26,7 +26,10 @@
           <h2 class="webkite-headline">
             {{~#facet name="Winery"}}
               {{~#if filterable~}}
-                <a href="#" class="webkite-add-filter webkite-winery"  data-facet="{{name}}" data-operator="is" data-value="{{displayValue}}">{{displayValue}}</a>
+                {{~#each values~}}
+                  <a href="#" class="webkite-add-filter webkite-winery"  data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>
+                  {{~#unless @last}}/{{/unless~}}
+                {{~/each}}
               {{~else~}}
                 <span class="webkite-winery">{{displayValue}}</span>
               {{~/if}}
@@ -41,7 +44,10 @@
             <div class="webkite-facet-values webkite-providence">
               {{~#facet name="Region"~}}
                 {{~#if filterable~}}
-                  <a href="#" class="webkite-add-filter webkite-region" data-facet="{{name}}" data-operator="is" data-value="{{displayValue}}">{{displayValue}}</a>
+                  {{~#each values~}}
+                    <a href="#" class="webkite-add-filter webkite-region"  data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>
+                    {{~#unless @last}}/{{/unless~}}
+                  {{~/each}}
                 {{~else~}}
                   <span class="webkite-region">{{~displayValue}}</span>
                 {{~/if~}}          
@@ -49,7 +55,10 @@
     
               {{~#facet name="State"}}
                 {{~#if filterable~}}
-                  <a href="#" class="webkite-add-filter webkite-state" data-facet="{{name}}" data-operator="is" data-value="{{displayValue}}">{{displayValue}}</a>
+                  {{~#each values~}}
+                    <a href="#" class="webkite-add-filter webkite-state"  data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>
+                    {{~#unless @last}}/{{/unless~}}
+                  {{~/each}}
                 {{~else~}}
                   <span class="webkite-state">{{~displayValue}}</span>
                 {{~/if~}}          
@@ -57,7 +66,10 @@
     
               {{~#facet name="Country"}}
                 {{~#if filterable~}}
-                  <a href="#" class="webkite-add-filter webkite-country" data-facet="{{name}}" data-operator="is" data-value="{{displayValue}}">{{displayValue}}</a>
+                  {{~#each values~}}
+                    <a href="#" class="webkite-add-filter webkite-country"  data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>
+                    {{~#unless @last}}/{{/unless~}}
+                  {{~/each}}
                 {{~else~}}
                   <span class="webkite-country">{{~displayValue}}</span>
                 {{~/if~}}          
