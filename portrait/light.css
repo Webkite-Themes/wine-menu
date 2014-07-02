@@ -19,7 +19,12 @@
     font: inherit;
     text-transform: none;
     vertical-align: baseline;
-    text-rendering: auto; }
+    text-rendering: auto;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: all 0 none;
+    transition: none; }
   #webkite-results button, #webkite-results select, #webkite-results input {
     text-transform: none; }
     #webkite-results button:active, #webkite-results select:active, #webkite-results input:active {
