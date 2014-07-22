@@ -186,6 +186,12 @@ $itemBackground: rgba(255,255,255,.5);
     text-align:center;
     width:100%;
     color: $lightOpacity;
+    padding:2px 0;
+    margin:-2px 0;
+    max-width:100%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
     }
   .webkite-result-foot{
     text-align:right;
@@ -200,7 +206,6 @@ $itemBackground: rgba(255,255,255,.5);
     font: 400 12px/1 'Open Sans', 'Arial', sans-serif;
     padding: $mainGutter/5 $mainGutter/2;
     text-align: center;
-    width: 4.375em;
     }
   a.more-button{
     background: none;
@@ -388,6 +393,7 @@ $itemBackground: rgba(255,255,255,.5);
     .webkite-result-body{
       .webkite-prices {
         margin-top:$mainGutter/4;
+        width:auto;
         & > .webkite-block {
           width:50%;
           display:inline-block;
@@ -431,6 +437,7 @@ $itemBackground: rgba(255,255,255,.5);
     .webkite-result-body{
       .webkite-prices {
         margin-top:$mainGutter/4;
+        width:auto;
         & > .webkite-block {
           display:inline-block;
           vertical-align:top;

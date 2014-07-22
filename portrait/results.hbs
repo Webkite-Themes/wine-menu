@@ -52,21 +52,21 @@
                 <span class="webkite-price">
                   {{~#facet name="Price Per Glass"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
                   {{~#unless (find facets name="Price Per Glass")~}}-{{~/unless~}}
-                  <span class="webkite-price-label">/glass</span>
+                  <span class="webkite-price-label">/{{t "glass" default="glass"}}</span>
                 </span>
               </div><!--
            --><div class="webkite-block webkite-block-fifty webkite-bottle">
                 <span class="webkite-price">
                   {{~#facet name="Price Per Bottle"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
                   {{~#unless (find facets name="Price Per Bottle")~}}-{{~/unless~}}
-                  <span class="webkite-price-label">/bottle</span>
+                  <span class="webkite-price-label">/{{t "bottle" default="bottle"}}</span>
                 </span>
               </div>
             </div><!-- block-group -->
             
             {{#any (find facets name="Tasting Notes") (find facets name="Region") (find facets name="State") (find facets name="Country")}}
               <div class="webkite-result-foot">
-                <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item more-button" data-toggle="modal" data-speed="100ms">more</a>
+                <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item more-button" data-toggle="modal" data-speed="100ms">{{downcase (t "More" default="more")}}</a>
               </div>
             {{/any }}
           </div>
