@@ -634,7 +634,11 @@
   font-size: 0.65em;
   text-transform: uppercase;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
 #webkite-results a.more-button, #webkite-results a.less-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -750,7 +754,8 @@
   #webkite-results.xs .webkite-image-wrapper img {
     width: 100%; }
 #webkite-results.xs .webkite-result-body .webkite-prices {
-  margin-top: 5px; }
+  margin-top: 5px;
+  width: auto; }
   #webkite-results.xs .webkite-result-body .webkite-prices > .webkite-block {
     width: 50%;
     display: inline-block;
@@ -783,7 +788,8 @@
 #webkite-results.sm .webkite-block.webkite-block-seventy {
   width: 100%; }
 #webkite-results.sm .webkite-result-body .webkite-prices {
-  margin-top: 5px; }
+  margin-top: 5px;
+  width: auto; }
   #webkite-results.sm .webkite-result-body .webkite-prices > .webkite-block {
     display: inline-block;
     vertical-align: top;

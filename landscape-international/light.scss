@@ -160,6 +160,10 @@ $imageWidthMd: 100px;
     text-transform: uppercase;
     display:inline-block;
     color: $lightOpacity;
+    max-width:100%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
     }
   a.more-button, a.less-button{
     @include boxedUp;
@@ -280,6 +284,7 @@ $imageWidthMd: 100px;
   .webkite-result-body{
     .webkite-prices {
       margin-top:$mainGutter/4;
+      width:auto;
       & > .webkite-block {
         width:50%;
         display:inline-block;
@@ -321,6 +326,7 @@ $imageWidthMd: 100px;
   .webkite-result-body{
     .webkite-prices {
       margin-top:$mainGutter/4;
+      width:auto;
       & > .webkite-block {
         display:inline-block;
         vertical-align:top;
