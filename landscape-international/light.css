@@ -599,6 +599,8 @@
   text-transform: uppercase;
   display: inline-block;
   color: rgba(0, 0, 0, 0.6);
+  padding: 2px 0;
+  margin: -2px 0;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
