@@ -9,6 +9,14 @@ settings:
     - 100
     
 assets:
+  preview-images:
+    light:
+      small: light-small.png
+      large: light-large.png
+    dark:
+      small: dark-small.png
+      large: dark-large.png
+
   images:
     - angle-light.png
     - angle-dark.png
