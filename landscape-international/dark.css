@@ -95,9 +95,13 @@
 #webkite-results .webkite-results-header, #webkite-results .webkite-results-footer {
   text-align: justify;
   position: relative; }
-  #webkite-results .webkite-results-header .webkite-branding-area, #webkite-results .webkite-results-header .webkite-pagination-area, #webkite-results .webkite-results-header .webkite-sort-area, #webkite-results .webkite-results-header .webkite-filter-area, #webkite-results .webkite-results-footer .webkite-branding-area, #webkite-results .webkite-results-footer .webkite-pagination-area, #webkite-results .webkite-results-footer .webkite-sort-area, #webkite-results .webkite-results-footer .webkite-filter-area {
+  #webkite-results .webkite-results-header .webkite-sort-area, #webkite-results .webkite-results-header .webkite-filter-area, #webkite-results .webkite-results-footer .webkite-sort-area, #webkite-results .webkite-results-footer .webkite-filter-area {
     display: inline-block;
     vertical-align: top; }
+  #webkite-results .webkite-results-header .webkite-branding-area, #webkite-results .webkite-results-footer .webkite-branding-area {
+    width: 102px;
+    margin-right: -102px;
+    display: inline-block; }
   #webkite-results .webkite-results-header .webkite-branding-area a, #webkite-results .webkite-results-footer .webkite-branding-area a {
     background: url("branding-dark.svg") center top no-repeat;
     background-size: 100%;
@@ -112,17 +116,90 @@
     clear: both;
     display: table; }
 #webkite-results .webkite-results-footer {
-  height: 34px;
   font-size: 14px; }
-  #webkite-results .webkite-results-footer::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 0;
+
+/************************************** DATASET NAME & EMBED */
+#webkite-results .webkite-dataset-name {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  line-height: 1.1em;
+  margin: -0.15em 0 15px;
+  padding: 0; }
+  #webkite-results .webkite-dataset-name + .webkite-embed-wrapper {
+    margin: -13px 0 5px; }
+#webkite-results .webkite-embed-wrapper {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  line-height: 19px;
+  margin: -15px 0 5px;
+  padding: 10px 0;
+  height: 39px;
+  position: relative;
+  overflow: hidden; }
+#webkite-results #webkite-embedder {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 19px;
+  padding: 10px 0;
+  height: 39px;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  left: 0;
+  z-index: 1; }
+#webkite-results .webkite-embed-input {
+  padding: 0 20px 0 70px; }
+  #webkite-results .webkite-embed-input input {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #777;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2px;
     margin: 0;
-    padding: 0;
-    white-space: pre-line;
-    margin-bottom: 20px; }
+    outline: none;
+    font-size: 10px;
+    position: relative;
+    width: 100%;
+    top: -1px; }
+#webkite-results .webkite-embed-select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  padding: 10px 10px 10px 0;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+#webkite-results .webkite-embed-hide {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  padding: 10px 0 10px 10px;
+  text-indent: -99999px;
+  background: url('select-close-dark.png') no-repeat right center; }
 
 /************************************** SORTS AND FILTERS */
 #webkite-results {
@@ -416,7 +493,16 @@
   /* page input */
   /* remove arrows */ }
   #webkite-results .webkite-pagination-area {
-    font: 400 14px/0 'Open Sans', 'Arial', sans-serif; }
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font: 400 14px/0 'Open Sans', 'Arial', sans-serif;
+    padding-left: 122px;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 34px; }
   #webkite-results .webkite-results-paginator {
     font-size: 14px; }
     #webkite-results .webkite-results-paginator a, #webkite-results .webkite-results-paginator p {
@@ -462,7 +548,8 @@
 /************************************** ELEMENT QUERIES */
 #webkite-results.xs .webkite-branding-area, #webkite-results.xs .webkite-pagination-area {
   width: 100%;
-  padding-right: 0;
+  padding: 0;
+  margin: 0;
   text-align: center; }
 #webkite-results.xs .webkite-filter-area, #webkite-results.xs .webkite-sort-area, #webkite-results.xs .webkite-sort-area > .webkite-toggle {
   width: 100%; }
@@ -473,10 +560,14 @@
 #webkite-results.xs .webkite-filter-area, #webkite-results.xs .webkite-sort-area + .webkite-filter-area {
   margin-left: 0;
   padding-left: 0; }
-#webkite-results.xs .webkite-branding-area {
-  padding-bottom: 20px; }
-#webkite-results.xs .webkite-results-footer {
-  height: 90px; }
+#webkite-results.xs .webkite-branding-area + .webkite-pagination-area {
+  margin-top: 20px; }
+#webkite-results.xs .webkite-dataset-name {
+  text-align: center;
+  font-size: 20px; }
+#webkite-results.xs .webkite-embed-wrapper .webkite-embed-show {
+  display: block;
+  text-align: center; }
 
 #webkite-results.sm .webkite-filter-area, #webkite-results.sm .webkite-sort-area, #webkite-results.sm .webkite-sort-area > .webkite-toggle {
   width: 100%; }

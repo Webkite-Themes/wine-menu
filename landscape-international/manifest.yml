@@ -18,6 +18,8 @@ assets:
       large: dark-large.png
 
   images:
+    - select-close.png
+    - select-close-dark.png
     - angle-light.png
     - angle-dark.png
     - plus-light.png
@@ -37,6 +39,8 @@ assets:
     - results.handlebars.js
   
   partials:
+    - name.handlebars.js
+    - embed.handlebars.js
     - header.handlebars.js
     - filters.handlebars.js
     - sorts.handlebars.js
