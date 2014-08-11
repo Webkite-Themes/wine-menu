@@ -197,9 +197,14 @@ $tokenFifth: #6f7ca8;
     .webkite-results-header, .webkite-results-footer{
       text-align: justify;
       position: relative;
-      .webkite-branding-area, .webkite-pagination-area, .webkite-sort-area, .webkite-filter-area{
+      .webkite-sort-area, .webkite-filter-area{
         display: inline-block;
         vertical-align:top;
+        }
+      .webkite-branding-area {
+        width:102px;
+        margin-right:-102px;
+        display:inline-block;
         }
       .webkite-branding-area a {
         @if $colorVariant == light{background: url("branding-light.svg") center top no-repeat;}
@@ -216,11 +221,89 @@ $tokenFifth: #6f7ca8;
       margin-bottom:$mainGutter;
       }
     .webkite-results-footer{
-      @include breakThat;
-      height: 34px;
       font-size:14px;
       }
     }
+
+  /************************************** DATASET NAME & EMBED */
+  #webkite-results{
+    .webkite-dataset-name {
+      color:$medOpacity;
+      font-size:22px;
+      font-weight:bold;
+      font-family: 'Open Sans', 'Arial', sans-serif;
+      line-height:1.1em;
+      margin:-0.15em 0 15px;
+      padding:0;
+      + .webkite-embed-wrapper {
+        margin:-13px 0 5px;
+        }
+      }
+    .webkite-embed-wrapper {
+      @include boxedUp;
+      color:$medOpacity;
+      font-size:13px;
+      line-height:19px;
+      margin:-15px 0 5px;
+      padding:10px 0;
+      height:39px;
+      position:relative;
+      overflow:hidden;
+      }
+    #webkite-embedder {
+      @include boxedUp;
+      font-size:13px;
+      line-height:19px;
+      padding:10px 0;
+      height:39px;
+      position:absolute;
+      top:-50px;
+      right:0;
+      left:0;
+      z-index:1;
+      }
+    .webkite-embed-input{
+      padding:0 20px 0 70px;
+      input{
+        @include roundedUp(2px);
+        @include boxedUp;
+        color:#777;
+        border:1px solid $lighterOpacity;
+        padding:2px;
+        margin:0;
+        outline:none;
+        font-size:10px;
+        position:relative;
+        width:100%;
+        top:-1px;
+        }
+      }
+    .webkite-embed-select{
+      @include boxedUp;
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      width:70px;
+      padding:10px 10px 10px 0;
+      text-align:left;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      }
+    .webkite-embed-hide{
+      @include boxedUp;
+      position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      width:20px;
+      padding:10px 0 10px 10px;
+      text-indent:-99999px;
+      @if $colorVariant == light{background:url('select-close.png') no-repeat right center;}
+      @if $colorVariant == dark{background:url('select-close-dark.png') no-repeat right center;}
+      }
+  }  
     
   /************************************** SORTS AND FILTERS */
   #webkite-results{
@@ -487,7 +570,14 @@ $tokenFifth: #6f7ca8;
   #webkite-results{
     
     .webkite-pagination-area{
+      @include boxedUp;
       font: 400 14px/0 'Open Sans', 'Arial', sans-serif;
+      padding-left:122px;
+      width:100%;
+      text-align:right;
+      display:inline-block;
+      vertical-align:top;
+      line-height:34px;
       }
     .webkite-results-paginator{
       font-size: 14px;
@@ -530,7 +620,8 @@ $tokenFifth: #6f7ca8;
   #webkite-results.xs{
     .webkite-branding-area, .webkite-pagination-area{
       width: 100%;
-      padding-right: 0;
+      padding: 0;
+      margin:0;
       text-align:center;
       }
     .webkite-filter-area, .webkite-sort-area, .webkite-sort-area > .webkite-toggle{ width: 100%; }
@@ -541,8 +632,16 @@ $tokenFifth: #6f7ca8;
       margin-left: 0;
       padding-left: 0;
       }
-    .webkite-branding-area{padding-bottom: $mainGutter;}
-    .webkite-results-footer{height: 90px;}
+    .webkite-branding-area + .webkite-pagination-area{margin-top: $mainGutter;}
+
+    .webkite-dataset-name {
+      text-align:center;
+      font-size:20px;
+      }
+    .webkite-embed-wrapper .webkite-embed-show {
+      display:block;
+      text-align:center;
+      }
     }
   
   #webkite-results.sm{
