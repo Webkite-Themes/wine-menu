@@ -47,4 +47,4 @@ assets:
     - noresult.handlebars.js
     - footer.handlebars.js
     - paginator.handlebars.js
-    - results-modal.handlebars.js
+    - results-modals.handlebars.js

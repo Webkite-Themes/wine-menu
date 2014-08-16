@@ -197,7 +197,8 @@ $lighterOpacity: rgba(255,255,255,.15);
     white-space:nowrap;
     }
   .webkite-result-foot{
-    text-align:right;
+    text-align:center;
+    font-size:13px;
     margin-top:$mainGutter/2;
     }
   a.more-button, a.less-button{
@@ -359,6 +360,20 @@ $lighterOpacity: rgba(255,255,255,.15);
     z-index:3;
     }
   
+  }
+  
+/* single prices layout shift */
+#webkite-results {
+  /* main content */
+  .webkite-prices.webkite-prices-single {
+    > .webkite-block {width:100%;}
+    }
+  /* modal content */
+  .webkite-modal-content .webkite-prices-single{
+    > .webkite-block-seventy {width:85%;}
+    > .webkite-block-thirty {width:15%;}
+    .webkite-prices > .webkite-block {width:100%;}
+    }
   }
 
 

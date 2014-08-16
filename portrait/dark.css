@@ -733,7 +733,8 @@
   text-overflow: ellipsis;
   white-space: nowrap; }
 #webkite-results .webkite-result-foot {
-  text-align: right;
+  text-align: center;
+  font-size: 13px;
   margin-top: 10px; }
 #webkite-results a.more-button, #webkite-results a.less-button {
   -webkit-box-sizing: border-box;
@@ -896,6 +897,19 @@
   right: 0;
   bottom: 0;
   z-index: 3; }
+
+/* single prices layout shift */
+#webkite-results {
+  /* main content */
+  /* modal content */ }
+  #webkite-results .webkite-prices.webkite-prices-single > .webkite-block {
+    width: 100%; }
+  #webkite-results .webkite-modal-content .webkite-prices-single > .webkite-block-seventy {
+    width: 85%; }
+  #webkite-results .webkite-modal-content .webkite-prices-single > .webkite-block-thirty {
+    width: 15%; }
+  #webkite-results .webkite-modal-content .webkite-prices-single .webkite-prices > .webkite-block {
+    width: 100%; }
 
 /******************************************* NO RESULTS */
 #webkite-results .webkite-no-results {
