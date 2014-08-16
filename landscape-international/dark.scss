@@ -189,6 +189,14 @@ $imageWidthMd: 100px;
     }
   }
   
+  /* single prices layout shift */
+#webkite-results .webkite-prices-single {
+  > .webkite-block-seventy {width:85%;}
+  > .webkite-block-thirty {width:15%;}
+  .webkite-prices > .webkite-block {width:100%;}
+  }
+
+  
 /************************************** INLINE FILTERS */
 #webkite-results{
 

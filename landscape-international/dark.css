@@ -724,6 +724,14 @@
   #webkite-results a.less-button:hover {
     background: rgba(255, 255, 255, 0.7); }
 
+/* single prices layout shift */
+#webkite-results .webkite-prices-single > .webkite-block-seventy {
+  width: 85%; }
+#webkite-results .webkite-prices-single > .webkite-block-thirty {
+  width: 15%; }
+#webkite-results .webkite-prices-single .webkite-prices > .webkite-block {
+  width: 100%; }
+
 /************************************** INLINE FILTERS */
 #webkite-results .webkite-block li b {
   position: relative; }

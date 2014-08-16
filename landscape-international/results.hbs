@@ -9,7 +9,7 @@
   {{#if items.length~}}
     {{#each this.items~}}
       <section class="webkite-result">
-        <div class="webkite-block-group">
+        <div class="webkite-block-group{{#any (find ../../facets name="Price Per Glass" empty=true) (find ../../facets name="Price Per Bottle" empty=true)}} webkite-prices-single{{/any}}">
           <div class="webkite-block webkite-block-seventy">
             {{#facet name="Image URL"}}<div class="webkite-image-wrapper"><img src="{{displayValue}}"/></div>{{/facet~}}
             <div class="webkite-result-body">
@@ -86,42 +86,50 @@
               {{/any}}
               
               <div class="webkite-block-group webkite-prices until-md">
+                {{~#unless (find ../../facets name="Price Per Glass" empty=true)~}}
+                  <div class="webkite-block webkite-block-fifty webkite-glass">
+                    <span class="webkite-price">
+                      {{~#facet name="Price Per Glass"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
+                      {{~#unless (find facets name="Price Per Glass")~}}-{{~/unless~}}
+                      <span class="webkite-price-label">/{{t "glass" default="glass"}}</span>
+                    </span>
+                  </div>
+                {{~/unless~}}
+                {{~#unless (find ../../facets name="Price Per Bottle" empty=true)~}}
+                  <div class="webkite-block webkite-block-fifty webkite-bottle">
+                    <span class="webkite-price">
+                      {{~#facet name="Price Per Bottle"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
+                      {{~#unless (find facets name="Price Per Bottle")~}}-{{~/unless~}}
+                      <span class="webkite-price-label">/{{t "bottle" default="bottle"}}</span>
+                    </span>
+                  </div>
+                {{~/unless~}}
+              </div><!-- block-group -->
+            </div> <!-- webkite-result-body -->
+          </div><!--
+
+       --><div class="webkite-block webkite-block-thirty webkite-prices-wrap md-only">
+            <div class="webkite-block-group webkite-prices">
+              {{~#unless (find ../../facets name="Price Per Glass" empty=true)~}}
                 <div class="webkite-block webkite-block-fifty webkite-glass">
                   <span class="webkite-price">
                     {{~#facet name="Price Per Glass"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
                     {{~#unless (find facets name="Price Per Glass")~}}-{{~/unless~}}
                     <span class="webkite-price-label">/{{t "glass" default="glass"}}</span>
                   </span>
-                </div><!--
-             --><div class="webkite-block webkite-block-fifty webkite-bottle">
+                </div>
+              {{~/unless~}}
+              {{~#unless (find ../../facets name="Price Per Bottle" empty=true)~}}
+                <div class="webkite-block webkite-block-fifty webkite-bottle">
                   <span class="webkite-price">
                     {{~#facet name="Price Per Bottle"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
                     {{~#unless (find facets name="Price Per Bottle")~}}-{{~/unless~}}
                     <span class="webkite-price-label">/{{t "bottle" default="bottle"}}</span>
                   </span>
                 </div>
-              </div><!-- block-group -->
-            </div> <!-- webkite-result-body -->
-          </div><!-- 70
-
-       --><div class="webkite-block webkite-block-thirty webkite-prices-wrap md-only">
-            <div class="webkite-block-group webkite-prices">
-              <div class="webkite-block webkite-block-fifty webkite-glass">
-                <span class="webkite-price">
-                  {{~#facet name="Price Per Glass"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
-                  {{~#unless (find facets name="Price Per Glass")~}}-{{~/unless~}}
-                  <span class="webkite-price-label">/{{t "glass" default="glass"}}</span>
-                </span>
-              </div><!--
-           --><div class="webkite-block webkite-block-fifty webkite-bottle">
-                <span class="webkite-price">
-                  {{~#facet name="Price Per Bottle"~}}<span class="webkite-price-value" title="{{displayValue}}">{{displayValue}}</span>{{~/facet~}}                
-                  {{~#unless (find facets name="Price Per Bottle")~}}-{{~/unless~}}
-                  <span class="webkite-price-label">/{{t "bottle" default="bottle"}}</span>
-                </span>
-              </div>
+              {{~/unless~}}
             </div><!-- block-group -->
-          </div><!-- 30 -->
+          </div>
           
         </div><!-- block-group -->
       </section>
