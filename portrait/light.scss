@@ -254,9 +254,23 @@ $itemBackground: rgba(255,255,255,.5);
     border:1px solid rgba(0, 0, 0, 0.15);
     padding: $mainGutter $mainGutter/5*2 $mainGutter*2 $mainGutter/4*3;
     position:relative;
-    overflow:hidden;
     max-height:100%;
     text-align: justify;
+    > .webkite-toggle-item{
+      @include roundedUp(50%);
+      -moz-box-sizing:content-box;
+      -webkit-box-sizing:content-box;
+      box-sizing:content-box;
+      position:absolute;
+      height:23px;
+      width:24px;
+      text-indent:-99999px;
+      background:url("modal-close-light.png") 0 0 no-repeat $backgroundColor;
+      top:-11px;
+      right:-12px;
+      border:2px solid $backgroundColor;
+      z-index:2;
+      }
     }
   .webkite-modal-content{
     max-height:62vh;
@@ -334,8 +348,7 @@ $itemBackground: rgba(255,255,255,.5);
     }
   .webkite-modal-foot{
     @include boxedUp;
-    text-align:right;
-    padding:$mainGutter/2;
+    text-align:center;
     overflow:hidden;
     border-top:1px solid $lighterOpacity;
     height:$mainGutter*2;
@@ -343,6 +356,11 @@ $itemBackground: rgba(255,255,255,.5);
     left:0;
     right:0;
     bottom:0;
+    > a {
+      display:block;
+      padding:$mainGutter/2;
+      line-height:19px;
+      }
     }
   .webkite-modal-blocking{
     @include roundedUp (10px);

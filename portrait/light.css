@@ -803,9 +803,26 @@
   border: 1px solid rgba(0, 0, 0, 0.15);
   padding: 20px 8px 40px 15px;
   position: relative;
-  overflow: hidden;
   max-height: 100%;
   text-align: justify; }
+  #webkite-results .webkite-result-modal > .webkite-toggle-item {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    height: 23px;
+    width: 24px;
+    text-indent: -99999px;
+    background: url("modal-close-light.png") 0 0 no-repeat rgba(255, 255, 255, 0.95);
+    top: -11px;
+    right: -12px;
+    border: 2px solid rgba(255, 255, 255, 0.95);
+    z-index: 2; }
 #webkite-results .webkite-modal-content {
   max-height: 62vh;
   padding-right: 12px;
@@ -873,8 +890,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  text-align: right;
-  padding: 10px;
+  text-align: center;
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   height: 40px;
@@ -882,6 +898,10 @@
   left: 0;
   right: 0;
   bottom: 0; }
+  #webkite-results .webkite-modal-foot > a {
+    display: block;
+    padding: 10px;
+    line-height: 19px; }
 #webkite-results .webkite-modal-blocking {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

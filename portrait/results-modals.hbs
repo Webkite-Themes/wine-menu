@@ -1,6 +1,7 @@
 {{#each this.items~}}
   <div id="{{this.id}}" class="webkite-item-details webkite-modal">
     <div class="webkite-result-modal">
+      <a href="#" data-id="{{this.id}}" class="webkite-toggle-item" data-animate="200ms" data-speed="100ms">x</a>
       <div class="webkite-modal-content">
         <div class="webkite-result webkite-block-group{{#any (find ../facets name="Price Per Glass" empty=true) (find ../facets name="Price Per Bottle" empty=true)}} webkite-prices-single{{/any}}">
           <div class="webkite-block webkite-block-seventy">
@@ -128,7 +129,7 @@
         </div><!-- block-group -->
       </div><!-- webkite-modal-content -->
       <div class="webkite-modal-foot">
-        <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item less-button" data-speed="100ms">{{downcase (t "Less" default="less")}}</a>
+        <a href="#" data-id="{{this.id}}" class="webkite-toggle-item" data-animate="200ms" data-speed="100ms">{{t "Close" default="Close"}}</a>
       </div>
     </div><!-- webkite-result-modal -->
   </div>
