@@ -692,6 +692,8 @@
   padding: 0 4px 0 5px;
   opacity: 0.3;
   font-style: normal; }
+#webkite-results .webkite-varietal > a {
+  display: inline-block; }
 #webkite-results .webkite-providence {
   margin-top: 8px;
   color: rgba(255, 255, 255, 0.7); }

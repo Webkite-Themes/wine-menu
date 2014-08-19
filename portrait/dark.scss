@@ -151,6 +151,9 @@ $lighterOpacity: rgba(255,255,255,.15);
     opacity:0.3;
     font-style:normal;
     }
+  .webkite-varietal > a {
+    display:inline-block;
+    }
   .webkite-providence {
     margin-top:$mainGutter/2.5;
     color:$lightOpacity;
