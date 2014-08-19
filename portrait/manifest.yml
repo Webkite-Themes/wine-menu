@@ -2,6 +2,8 @@ theme:
   name: wine-menu-portrait
   
 settings:
+  embeddable:
+    true
   pagination:
     - 12
     - 24
