@@ -101,7 +101,8 @@
   #webkite-results .webkite-results-header .webkite-branding-area, #webkite-results .webkite-results-footer .webkite-branding-area {
     width: 102px;
     margin-right: -102px;
-    display: inline-block; }
+    display: inline-block;
+    position: relative; }
   #webkite-results .webkite-results-header .webkite-branding-area a, #webkite-results .webkite-results-footer .webkite-branding-area a {
     background: url("branding-light.svg") center top no-repeat;
     background-size: 100%;
