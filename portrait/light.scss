@@ -1,4 +1,5 @@
 $colorVariant:light;
+$themeName:wine-menu-portrait;
 
 @import url("//fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
 
@@ -11,12 +12,12 @@ $itemBackground: rgba(255,255,255,.5);
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results{
+#webkite-results.#{$themeName}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results{
+#webkite-results.#{$themeName}{
   background: $backgroundColor;
   background-clip: padding-box;
   border: 1px solid $lighterOpacity;
@@ -35,7 +36,7 @@ $itemBackground: rgba(255,255,255,.5);
   }
   
 /* TYPOGRAPHY */
-#webkite-results{
+#webkite-results.#{$themeName}{
   h2{
     @include hyphenGreat;
     font: 700 1.3em/1.1 'Libre Baskerville', 'Georgia', serif;
@@ -49,7 +50,7 @@ $itemBackground: rgba(255,255,255,.5);
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   .webkite-block-group {
     @include boxedUp;
     margin-left:-$mainGutter;
@@ -73,7 +74,7 @@ $itemBackground: rgba(255,255,255,.5);
   }
   
 /************************************ PORTRAIT RESULTS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   .webkite-results-wrapper {
     margin-left:-$mainGutter;
     }
@@ -224,7 +225,7 @@ $itemBackground: rgba(255,255,255,.5);
   }
   
 /*************************************** DETAILS MODAL */
-#webkite-results{
+#webkite-results.#{$themeName}{
   .webkite-item-details{
     @include boxedUp;
     position: fixed;
@@ -381,7 +382,7 @@ $itemBackground: rgba(255,255,255,.5);
   }
 
 /* single prices layout shift */
-#webkite-results {
+#webkite-results.#{$themeName} {
   /* main content */
   .webkite-prices.webkite-prices-single {
     > .webkite-block {width:100%;}
@@ -396,7 +397,7 @@ $itemBackground: rgba(255,255,255,.5);
 
 
 /******************************************* NO RESULTS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   .webkite-no-results{
     padding: 0 0 $mainGutter 0;
     margin-bottom: $mainGutter;
@@ -406,7 +407,7 @@ $itemBackground: rgba(255,255,255,.5);
   }
   
 /************************************** ELEMENT QUERIES */
-#webkite-results.xs{
+#webkite-results.#{$themeName}.xs{
   .webkite-result-wrapper {width:100%;}
 
   .webkite-block.webkite-block-seventy {width:100%;}
@@ -455,7 +456,7 @@ $itemBackground: rgba(255,255,255,.5);
     }
   }
   
-#webkite-results.sm{
+#webkite-results.#{$themeName}.sm{
   .webkite-block.webkite-block-seventy {width:100%;}
   .webkite-result-wrapper {width:50%;}
   .webkite-item-details{
@@ -500,7 +501,7 @@ $itemBackground: rgba(255,255,255,.5);
     
   }
 
-#webkite-results.md{
+#webkite-results.#{$themeName}.md{
   .webkite-modal-content {
     .webkite-image-wrapper{
       width: $imageWidthMd;
@@ -517,7 +518,7 @@ $itemBackground: rgba(255,255,255,.5);
   
 /* ie 10/11 modal fixes */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-#webkite-results{
+#webkite-results.#{$themeName}{
   .webkite-item-details{
     left:0;
     right:0;
@@ -530,7 +531,7 @@ $itemBackground: rgba(255,255,255,.5);
     transform: translateY(-50%) translateX(-50%);
     }
   }
-#webkite-results.xs{
+#webkite-results.#{$themeName}.xs{
   .webkite-item-details{
     max-width:700px;
     width:auto;
@@ -539,7 +540,7 @@ $itemBackground: rgba(255,255,255,.5);
     margin-right:-50%;
     }
   }
-#webkite-results.sm{
+#webkite-results.#{$themeName}.sm{
   .webkite-item-details{
     max-width:700px;
     width:auto;
@@ -552,14 +553,14 @@ $itemBackground: rgba(255,255,255,.5);
   
 
 /*************************** DISPLAY RULES */
-#webkite-results.xs {
+#webkite-results.#{$themeName}.xs {
   .md-only {display:none;}
   .until-md {display:block;}
   }
-#webkite-results.sm {
+#webkite-results.#{$themeName}.sm {
   .md-only {display:none;}
   .until-md {display:block;}
   }
-#webkite-results.md {
+#webkite-results.#{$themeName}.md {
   .until-md {display:none;}
   }
