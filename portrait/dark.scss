@@ -15,12 +15,12 @@ $itemBackground: rgba(255,255,255,.1);
 $lighterOpacity: rgba(255,255,255,.15);
 
 /* RESET */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   background: $backgroundColor;
   background-clip: padding-box;
   border: 1px solid $lighterOpacity;
@@ -39,7 +39,7 @@ $lighterOpacity: rgba(255,255,255,.15);
   }
   
 /* TYPOGRAPHY */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   h2{
     @include hyphenGreat;
     font: 700 1.3em/1.1 'Libre Baskerville', 'Georgia', serif;
@@ -53,7 +53,7 @@ $lighterOpacity: rgba(255,255,255,.15);
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-block-group {
     @include boxedUp;
     margin-left:-$mainGutter;
@@ -77,7 +77,7 @@ $lighterOpacity: rgba(255,255,255,.15);
   }
   
 /************************************ PORTRAIT RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-results-wrapper {
     margin-left:-$mainGutter;
     }
@@ -228,7 +228,7 @@ $lighterOpacity: rgba(255,255,255,.15);
   }
   
 /*************************************** DETAILS MODAL */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-item-details{
     @include boxedUp;
     position: fixed;
@@ -385,7 +385,7 @@ $lighterOpacity: rgba(255,255,255,.15);
   }
   
 /* single prices layout shift */
-#webkite-results.#{$themeName} {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant} {
   /* main content */
   .webkite-prices.webkite-prices-single {
     > .webkite-block {width:100%;}
@@ -400,7 +400,7 @@ $lighterOpacity: rgba(255,255,255,.15);
 
 
 /******************************************* NO RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-no-results{
     padding: 0 0 $mainGutter 0;
@@ -411,7 +411,7 @@ $lighterOpacity: rgba(255,255,255,.15);
   }
   
 /************************************** ELEMENT QUERIES */
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .webkite-result-wrapper {width:100%;}
 
   .webkite-block.webkite-block-seventy {width:100%;}
@@ -460,7 +460,7 @@ $lighterOpacity: rgba(255,255,255,.15);
     }
   }
   
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-block.webkite-block-seventy {width:100%;}
   .webkite-result-wrapper {width:50%;}
   .webkite-item-details{
@@ -505,7 +505,7 @@ $lighterOpacity: rgba(255,255,255,.15);
     
   }
 
-#webkite-results.#{$themeName}.md{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.md{
   .webkite-modal-content {
     .webkite-image-wrapper{
       width: $imageWidthMd;
@@ -522,7 +522,7 @@ $lighterOpacity: rgba(255,255,255,.15);
   
 /* ie 10/11 modal fixes */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-item-details{
     left:0;
     right:0;
@@ -535,7 +535,7 @@ $lighterOpacity: rgba(255,255,255,.15);
     transform: translateY(-50%) translateX(-50%);
     }
   }
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .webkite-item-details{
     max-width:700px;
     width:auto;
@@ -544,7 +544,7 @@ $lighterOpacity: rgba(255,255,255,.15);
     margin-right:-50%;
     }
   }
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-item-details{
     max-width:700px;
     width:auto;
@@ -557,14 +557,14 @@ $lighterOpacity: rgba(255,255,255,.15);
 
 
 /*************************** DISPLAY RULES */
-#webkite-results.#{$themeName}.xs {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs {
   .md-only {display:none;}
   .until-md {display:block;}
   }
-#webkite-results.#{$themeName}.sm {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm {
   .md-only {display:none;}
   .until-md {display:block;}
   }
-#webkite-results.#{$themeName}.md {
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.md {
   .until-md {display:none;}
   }

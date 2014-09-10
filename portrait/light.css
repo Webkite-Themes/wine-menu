@@ -1,9 +1,9 @@
 @import url("//fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 /* RESET */
-#webkite-results.wine-menu-portrait {
+#webkite-results.wine-menu-portrait.webkite-light {
   /* HTML5 display-role reset for older browsers */ }
-  #webkite-results.wine-menu-portrait div, #webkite-results.wine-menu-portrait span, #webkite-results.wine-menu-portrait applet, #webkite-results.wine-menu-portrait object, #webkite-results.wine-menu-portrait iframe, #webkite-results.wine-menu-portrait h1, #webkite-results.wine-menu-portrait h2, #webkite-results.wine-menu-portrait h3, #webkite-results.wine-menu-portrait h4, #webkite-results.wine-menu-portrait h5, #webkite-results.wine-menu-portrait h6, #webkite-results.wine-menu-portrait p, #webkite-results.wine-menu-portrait blockquote, #webkite-results.wine-menu-portrait pre, #webkite-results.wine-menu-portrait a, #webkite-results.wine-menu-portrait abbr, #webkite-results.wine-menu-portrait acronym, #webkite-results.wine-menu-portrait address, #webkite-results.wine-menu-portrait big, #webkite-results.wine-menu-portrait cite, #webkite-results.wine-menu-portrait code, #webkite-results.wine-menu-portrait del, #webkite-results.wine-menu-portrait dfn, #webkite-results.wine-menu-portrait em, #webkite-results.wine-menu-portrait img, #webkite-results.wine-menu-portrait ins, #webkite-results.wine-menu-portrait kbd, #webkite-results.wine-menu-portrait q, #webkite-results.wine-menu-portrait s, #webkite-results.wine-menu-portrait samp, #webkite-results.wine-menu-portrait small, #webkite-results.wine-menu-portrait strike, #webkite-results.wine-menu-portrait strong, #webkite-results.wine-menu-portrait sub, #webkite-results.wine-menu-portrait sup, #webkite-results.wine-menu-portrait tt, #webkite-results.wine-menu-portrait var, #webkite-results.wine-menu-portrait b, #webkite-results.wine-menu-portrait u, #webkite-results.wine-menu-portrait i, #webkite-results.wine-menu-portrait center, #webkite-results.wine-menu-portrait dl, #webkite-results.wine-menu-portrait dt, #webkite-results.wine-menu-portrait dd, #webkite-results.wine-menu-portrait ol, #webkite-results.wine-menu-portrait ul, #webkite-results.wine-menu-portrait li, #webkite-results.wine-menu-portrait fieldset, #webkite-results.wine-menu-portrait form, #webkite-results.wine-menu-portrait label, #webkite-results.wine-menu-portrait legend, #webkite-results.wine-menu-portrait table, #webkite-results.wine-menu-portrait caption, #webkite-results.wine-menu-portrait tbody, #webkite-results.wine-menu-portrait tfoot, #webkite-results.wine-menu-portrait thead, #webkite-results.wine-menu-portrait tr, #webkite-results.wine-menu-portrait th, #webkite-results.wine-menu-portrait td, #webkite-results.wine-menu-portrait article, #webkite-results.wine-menu-portrait aside, #webkite-results.wine-menu-portrait canvas, #webkite-results.wine-menu-portrait details, #webkite-results.wine-menu-portrait embed, #webkite-results.wine-menu-portrait figure, #webkite-results.wine-menu-portrait figcaption, #webkite-results.wine-menu-portrait footer, #webkite-results.wine-menu-portrait header, #webkite-results.wine-menu-portrait hgroup, #webkite-results.wine-menu-portrait menu, #webkite-results.wine-menu-portrait nav, #webkite-results.wine-menu-portrait output, #webkite-results.wine-menu-portrait ruby, #webkite-results.wine-menu-portrait section, #webkite-results.wine-menu-portrait summary, #webkite-results.wine-menu-portrait time, #webkite-results.wine-menu-portrait mark, #webkite-results.wine-menu-portrait audio, #webkite-results.wine-menu-portrait video {
+  #webkite-results.wine-menu-portrait.webkite-light div, #webkite-results.wine-menu-portrait.webkite-light span, #webkite-results.wine-menu-portrait.webkite-light applet, #webkite-results.wine-menu-portrait.webkite-light object, #webkite-results.wine-menu-portrait.webkite-light iframe, #webkite-results.wine-menu-portrait.webkite-light h1, #webkite-results.wine-menu-portrait.webkite-light h2, #webkite-results.wine-menu-portrait.webkite-light h3, #webkite-results.wine-menu-portrait.webkite-light h4, #webkite-results.wine-menu-portrait.webkite-light h5, #webkite-results.wine-menu-portrait.webkite-light h6, #webkite-results.wine-menu-portrait.webkite-light p, #webkite-results.wine-menu-portrait.webkite-light blockquote, #webkite-results.wine-menu-portrait.webkite-light pre, #webkite-results.wine-menu-portrait.webkite-light a, #webkite-results.wine-menu-portrait.webkite-light abbr, #webkite-results.wine-menu-portrait.webkite-light acronym, #webkite-results.wine-menu-portrait.webkite-light address, #webkite-results.wine-menu-portrait.webkite-light big, #webkite-results.wine-menu-portrait.webkite-light cite, #webkite-results.wine-menu-portrait.webkite-light code, #webkite-results.wine-menu-portrait.webkite-light del, #webkite-results.wine-menu-portrait.webkite-light dfn, #webkite-results.wine-menu-portrait.webkite-light em, #webkite-results.wine-menu-portrait.webkite-light img, #webkite-results.wine-menu-portrait.webkite-light ins, #webkite-results.wine-menu-portrait.webkite-light kbd, #webkite-results.wine-menu-portrait.webkite-light q, #webkite-results.wine-menu-portrait.webkite-light s, #webkite-results.wine-menu-portrait.webkite-light samp, #webkite-results.wine-menu-portrait.webkite-light small, #webkite-results.wine-menu-portrait.webkite-light strike, #webkite-results.wine-menu-portrait.webkite-light strong, #webkite-results.wine-menu-portrait.webkite-light sub, #webkite-results.wine-menu-portrait.webkite-light sup, #webkite-results.wine-menu-portrait.webkite-light tt, #webkite-results.wine-menu-portrait.webkite-light var, #webkite-results.wine-menu-portrait.webkite-light b, #webkite-results.wine-menu-portrait.webkite-light u, #webkite-results.wine-menu-portrait.webkite-light i, #webkite-results.wine-menu-portrait.webkite-light center, #webkite-results.wine-menu-portrait.webkite-light dl, #webkite-results.wine-menu-portrait.webkite-light dt, #webkite-results.wine-menu-portrait.webkite-light dd, #webkite-results.wine-menu-portrait.webkite-light ol, #webkite-results.wine-menu-portrait.webkite-light ul, #webkite-results.wine-menu-portrait.webkite-light li, #webkite-results.wine-menu-portrait.webkite-light fieldset, #webkite-results.wine-menu-portrait.webkite-light form, #webkite-results.wine-menu-portrait.webkite-light label, #webkite-results.wine-menu-portrait.webkite-light legend, #webkite-results.wine-menu-portrait.webkite-light table, #webkite-results.wine-menu-portrait.webkite-light caption, #webkite-results.wine-menu-portrait.webkite-light tbody, #webkite-results.wine-menu-portrait.webkite-light tfoot, #webkite-results.wine-menu-portrait.webkite-light thead, #webkite-results.wine-menu-portrait.webkite-light tr, #webkite-results.wine-menu-portrait.webkite-light th, #webkite-results.wine-menu-portrait.webkite-light td, #webkite-results.wine-menu-portrait.webkite-light article, #webkite-results.wine-menu-portrait.webkite-light aside, #webkite-results.wine-menu-portrait.webkite-light canvas, #webkite-results.wine-menu-portrait.webkite-light details, #webkite-results.wine-menu-portrait.webkite-light embed, #webkite-results.wine-menu-portrait.webkite-light figure, #webkite-results.wine-menu-portrait.webkite-light figcaption, #webkite-results.wine-menu-portrait.webkite-light footer, #webkite-results.wine-menu-portrait.webkite-light header, #webkite-results.wine-menu-portrait.webkite-light hgroup, #webkite-results.wine-menu-portrait.webkite-light menu, #webkite-results.wine-menu-portrait.webkite-light nav, #webkite-results.wine-menu-portrait.webkite-light output, #webkite-results.wine-menu-portrait.webkite-light ruby, #webkite-results.wine-menu-portrait.webkite-light section, #webkite-results.wine-menu-portrait.webkite-light summary, #webkite-results.wine-menu-portrait.webkite-light time, #webkite-results.wine-menu-portrait.webkite-light mark, #webkite-results.wine-menu-portrait.webkite-light audio, #webkite-results.wine-menu-portrait.webkite-light video {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -25,35 +25,35 @@
     -ms-transition: none;
     -o-transition: all 0 none;
     transition: none; }
-  #webkite-results.wine-menu-portrait button, #webkite-results.wine-menu-portrait select, #webkite-results.wine-menu-portrait input {
+  #webkite-results.wine-menu-portrait.webkite-light button, #webkite-results.wine-menu-portrait.webkite-light select, #webkite-results.wine-menu-portrait.webkite-light input {
     text-transform: none; }
-    #webkite-results.wine-menu-portrait button:active, #webkite-results.wine-menu-portrait select:active, #webkite-results.wine-menu-portrait input:active {
+    #webkite-results.wine-menu-portrait.webkite-light button:active, #webkite-results.wine-menu-portrait.webkite-light select:active, #webkite-results.wine-menu-portrait.webkite-light input:active {
       -moz-box-shadow: none;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  #webkite-results.wine-menu-portrait button::-moz-focus-inner {
+  #webkite-results.wine-menu-portrait.webkite-light button::-moz-focus-inner {
     padding: 0;
     border: 0; }
-  #webkite-results.wine-menu-portrait article, #webkite-results.wine-menu-portrait aside, #webkite-results.wine-menu-portrait details, #webkite-results.wine-menu-portrait figcaption, #webkite-results.wine-menu-portrait figure, #webkite-results.wine-menu-portrait footer, #webkite-results.wine-menu-portrait header, #webkite-results.wine-menu-portrait hgroup, #webkite-results.wine-menu-portrait menu, #webkite-results.wine-menu-portrait nav, #webkite-results.wine-menu-portrait section {
+  #webkite-results.wine-menu-portrait.webkite-light article, #webkite-results.wine-menu-portrait.webkite-light aside, #webkite-results.wine-menu-portrait.webkite-light details, #webkite-results.wine-menu-portrait.webkite-light figcaption, #webkite-results.wine-menu-portrait.webkite-light figure, #webkite-results.wine-menu-portrait.webkite-light footer, #webkite-results.wine-menu-portrait.webkite-light header, #webkite-results.wine-menu-portrait.webkite-light hgroup, #webkite-results.wine-menu-portrait.webkite-light menu, #webkite-results.wine-menu-portrait.webkite-light nav, #webkite-results.wine-menu-portrait.webkite-light section {
     display: block; }
-  #webkite-results.wine-menu-portrait body {
+  #webkite-results.wine-menu-portrait.webkite-light body {
     line-height: 1; }
-  #webkite-results.wine-menu-portrait ol, #webkite-results.wine-menu-portrait ul, #webkite-results.wine-menu-portrait ul li {
+  #webkite-results.wine-menu-portrait.webkite-light ol, #webkite-results.wine-menu-portrait.webkite-light ul, #webkite-results.wine-menu-portrait.webkite-light ul li {
     list-style: none; }
-  #webkite-results.wine-menu-portrait blockquote, #webkite-results.wine-menu-portrait q {
+  #webkite-results.wine-menu-portrait.webkite-light blockquote, #webkite-results.wine-menu-portrait.webkite-light q {
     quotes: none; }
-  #webkite-results.wine-menu-portrait blockquote:before, #webkite-results.wine-menu-portrait blockquote:after {
+  #webkite-results.wine-menu-portrait.webkite-light blockquote:before, #webkite-results.wine-menu-portrait.webkite-light blockquote:after {
     content: '';
     content: none; }
-  #webkite-results.wine-menu-portrait q:before, #webkite-results.wine-menu-portrait q:after {
+  #webkite-results.wine-menu-portrait.webkite-light q:before, #webkite-results.wine-menu-portrait.webkite-light q:after {
     content: '';
     content: none; }
-  #webkite-results.wine-menu-portrait table {
+  #webkite-results.wine-menu-portrait.webkite-light table {
     border-collapse: collapse;
     border-spacing: 0; }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.wine-menu-portrait {
+#webkite-results.wine-menu-portrait.webkite-light {
   background: rgba(255, 255, 255, 0.95);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -70,16 +70,16 @@
   padding: 20px;
   font: 400 14px/normal 'Open Sans', 'Arial', sans-serif;
   position: relative; }
-  #webkite-results.wine-menu-portrait a {
+  #webkite-results.wine-menu-portrait.webkite-light a {
     color: #1b9cd2;
     text-decoration: none; }
-    #webkite-results.wine-menu-portrait a:hover {
+    #webkite-results.wine-menu-portrait.webkite-light a:hover {
       color: #0073a7; }
-  #webkite-results.wine-menu-portrait.webkite-fade-out img {
+  #webkite-results.wine-menu-portrait.webkite-light.webkite-fade-out img {
     opacity: 0.5; }
 
 /* TYPOGRAPHY */
-#webkite-results.wine-menu-portrait h2 {
+#webkite-results.wine-menu-portrait.webkite-light h2 {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -88,39 +88,39 @@
   font: 700 1.3em/1.1 'Libre Baskerville', 'Georgia', serif;
   color: rgba(0, 0, 0, 0.7);
   margin: 0 0 4px; }
-#webkite-results.wine-menu-portrait p, #webkite-results.wine-menu-portrait li {
+#webkite-results.wine-menu-portrait.webkite-light p, #webkite-results.wine-menu-portrait.webkite-light li {
   color: rgba(0, 0, 0, 0.6); }
 
 /******************************************** NAVIGATIONALS */
-#webkite-results.wine-menu-portrait .webkite-results-header, #webkite-results.wine-menu-portrait .webkite-results-footer {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-results-header, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-footer {
   text-align: justify;
   position: relative; }
-  #webkite-results.wine-menu-portrait .webkite-results-header .webkite-sort-area, #webkite-results.wine-menu-portrait .webkite-results-header .webkite-filter-area, #webkite-results.wine-menu-portrait .webkite-results-footer .webkite-sort-area, #webkite-results.wine-menu-portrait .webkite-results-footer .webkite-filter-area {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-results-header .webkite-sort-area, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-header .webkite-filter-area, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-footer .webkite-sort-area, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-footer .webkite-filter-area {
     display: inline-block;
     vertical-align: top; }
-  #webkite-results.wine-menu-portrait .webkite-results-header .webkite-branding-area, #webkite-results.wine-menu-portrait .webkite-results-footer .webkite-branding-area {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-results-header .webkite-branding-area, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-footer .webkite-branding-area {
     width: 102px;
     margin-right: -102px;
     display: inline-block;
     position: relative; }
-  #webkite-results.wine-menu-portrait .webkite-results-header .webkite-branding-area a, #webkite-results.wine-menu-portrait .webkite-results-footer .webkite-branding-area a {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-results-header .webkite-branding-area a, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-footer .webkite-branding-area a {
     background: url("branding-light.svg") center top no-repeat;
     background-size: 100%;
     display: inline-block;
     height: 34px;
     width: 102px; }
-#webkite-results.wine-menu-portrait .webkite-results-header {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-results-header {
   line-height: 1;
   margin-bottom: 20px; }
-  #webkite-results.wine-menu-portrait .webkite-results-header::after {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-results-header::after {
     content: '';
     clear: both;
     display: table; }
-#webkite-results.wine-menu-portrait .webkite-results-footer {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-results-footer {
   font-size: 14px; }
 
 /************************************** DATASET NAME & EMBED */
-#webkite-results.wine-menu-portrait .webkite-dataset-name {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-dataset-name {
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
   font-weight: bold;
@@ -128,9 +128,9 @@
   line-height: 1.1em;
   margin: -0.15em 0 15px;
   padding: 0; }
-  #webkite-results.wine-menu-portrait .webkite-dataset-name + .webkite-embed-wrapper {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-dataset-name + .webkite-embed-wrapper {
     margin: -13px 0 5px; }
-#webkite-results.wine-menu-portrait .webkite-embed-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-embed-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -142,7 +142,7 @@
   height: 39px;
   position: relative;
   overflow: hidden; }
-#webkite-results.wine-menu-portrait #webkite-embedder {
+#webkite-results.wine-menu-portrait.webkite-light #webkite-embedder {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -155,9 +155,9 @@
   right: 0;
   left: 0;
   z-index: 1; }
-#webkite-results.wine-menu-portrait .webkite-embed-input {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-embed-input {
   padding: 0 20px 0 70px; }
-  #webkite-results.wine-menu-portrait .webkite-embed-input input {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-embed-input input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -175,7 +175,7 @@
     position: relative;
     width: 100%;
     top: -1px; }
-#webkite-results.wine-menu-portrait .webkite-embed-select {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-embed-select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -189,7 +189,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
-#webkite-results.wine-menu-portrait .webkite-embed-hide {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-embed-hide {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -203,12 +203,12 @@
   background: url('select-close.png') no-repeat right center; }
 
 /************************************** SORTS AND FILTERS */
-#webkite-results.wine-menu-portrait {
+#webkite-results.wine-menu-portrait.webkite-light {
   /* sorts */
   /* filters */
   /* tokens */
   /* clear everything */ }
-  #webkite-results.wine-menu-portrait .webkite-sort-area > .webkite-toggle, #webkite-results.wine-menu-portrait .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-sort-area > .webkite-toggle, #webkite-results.wine-menu-portrait.webkite-light .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -231,7 +231,7 @@
     height: 28px;
     width: 80px;
     white-space: nowrap; }
-    #webkite-results.wine-menu-portrait .webkite-sort-area > .webkite-toggle > span, #webkite-results.wine-menu-portrait .webkite-primary-filter-menu > .webkite-toggle > span {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-sort-area > .webkite-toggle > span, #webkite-results.wine-menu-portrait.webkite-light .webkite-primary-filter-menu > .webkite-toggle > span {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -241,10 +241,10 @@
       text-overflow: ellipsis;
       padding-left: 8px;
       width: 100%; }
-  #webkite-results.wine-menu-portrait .webkite-sort-area {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-sort-area {
     position: relative;
     z-index: 3; }
-  #webkite-results.wine-menu-portrait .webkite-sort-area > .webkite-toggle i {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-sort-area > .webkite-toggle i {
     background: url("angle-light.png") center center no-repeat;
     height: 10px;
     pointer-events: none;
@@ -253,30 +253,30 @@
     top: 50%;
     margin-top: -5px;
     right: 8px; }
-  #webkite-results.wine-menu-portrait .webkite-filter-area {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-filter-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     position: relative; }
-  #webkite-results.wine-menu-portrait .webkite-sort-area + .webkite-filter-area {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-sort-area + .webkite-filter-area {
     padding-left: 90px;
     margin-left: -80px; }
-  #webkite-results.wine-menu-portrait .webkite-applied-filters {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-applied-filters {
     position: relative; }
-  #webkite-results.wine-menu-portrait .webkite-primary-filter-menu {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-primary-filter-menu {
     position: absolute;
     left: 0;
     top: 0;
     vertical-align: top;
     z-index: 2; }
-  #webkite-results.wine-menu-portrait .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-border-radius: 3px 0 0 3px;
     -moz-border-radius: 3px 0 0 3px;
     -ms-border-radius: 3px 0 0 3px;
     -o-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px; }
-  #webkite-results.wine-menu-portrait .webkite-primary-filter-menu > .webkite-toggle i {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-primary-filter-menu > .webkite-toggle i {
     background: url("plus-light.png") no-repeat;
     height: 12px;
     width: 12px;
@@ -285,7 +285,7 @@
     top: 50%;
     margin-top: -6px;
     right: 6px; }
-  #webkite-results.wine-menu-portrait .current-filters {
+  #webkite-results.wine-menu-portrait.webkite-light .current-filters {
     -webkit-border-radius: 0 3px 3px 0;
     -moz-border-radius: 0 3px 3px 0;
     -ms-border-radius: 0 3px 3px 0;
@@ -305,21 +305,21 @@
     text-align: left;
     vertical-align: top;
     /* and & or */ }
-    #webkite-results.wine-menu-portrait .current-filters span {
+    #webkite-results.wine-menu-portrait.webkite-light .current-filters span {
       color: rgba(0, 0, 0, 0.6);
       font-size: 14px;
       line-height: 1.2em;
       padding: 0 0.41667em 0 0;
       vertical-align: top; }
-  #webkite-results.wine-menu-portrait .filter-token-wrapper {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-token-wrapper {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
     white-space: nowrap;
     width: 100%; }
-    #webkite-results.wine-menu-portrait .filter-token-wrapper > span:first-child {
+    #webkite-results.wine-menu-portrait.webkite-light .filter-token-wrapper > span:first-child {
       padding-left: 0.41667em; }
-  #webkite-results.wine-menu-portrait a.webkite-remove-filter {
+  #webkite-results.wine-menu-portrait.webkite-light a.webkite-remove-filter {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
@@ -338,36 +338,36 @@
     text-align: left;
     word-wrap: normal;
     margin-right: 0.41667em; }
-    #webkite-results.wine-menu-portrait a.webkite-remove-filter:hover {
+    #webkite-results.wine-menu-portrait.webkite-light a.webkite-remove-filter:hover {
       text-decoration: line-through; }
-  #webkite-results.wine-menu-portrait [class^="filter-group"] {
+  #webkite-results.wine-menu-portrait.webkite-light [class^="filter-group"] {
     display: inline-block; }
-  #webkite-results.wine-menu-portrait .filter-group-0 a.webkite-remove-filter {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-group-0 a.webkite-remove-filter {
     background: #1b9cd2; }
-  #webkite-results.wine-menu-portrait .filter-group-1 a.webkite-remove-filter {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-group-1 a.webkite-remove-filter {
     background: #39a17c; }
-  #webkite-results.wine-menu-portrait .filter-group-2 a.webkite-remove-filter {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-group-2 a.webkite-remove-filter {
     background: #a8936f; }
-  #webkite-results.wine-menu-portrait .filter-group-3 a.webkite-remove-filter {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-group-3 a.webkite-remove-filter {
     background: #e6af52; }
-  #webkite-results.wine-menu-portrait .filter-group-4 a.webkite-remove-filter {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-group-4 a.webkite-remove-filter {
     background: #6f7ca8; }
-  #webkite-results.wine-menu-portrait a.webkite-clear-filters {
+  #webkite-results.wine-menu-portrait.webkite-light a.webkite-clear-filters {
     background: url("clear-all-icon.png") center top no-repeat;
     height: 18px;
     width: 18px;
     position: absolute;
     right: 4px;
     top: 4px; }
-    #webkite-results.wine-menu-portrait a.webkite-clear-filters:active {
+    #webkite-results.wine-menu-portrait.webkite-light a.webkite-clear-filters:active {
       background-position: 0 -18px; }
 
 /**************************************** SORT/FILTER MENU */
-#webkite-results.wine-menu-portrait {
+#webkite-results.wine-menu-portrait.webkite-light {
   /* directional arrow */
   /* filter arrow */
   /* filter submenu*/ }
-  #webkite-results.wine-menu-portrait .sort-menu, #webkite-results.wine-menu-portrait .filter-menu {
+  #webkite-results.wine-menu-portrait.webkite-light .sort-menu, #webkite-results.wine-menu-portrait.webkite-light .filter-menu {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -387,22 +387,22 @@
     z-index: 4;
     top: 10px;
     left: 10px; }
-  #webkite-results.wine-menu-portrait .sort-menu li, #webkite-results.wine-menu-portrait .filter-menu li {
+  #webkite-results.wine-menu-portrait.webkite-light .sort-menu li, #webkite-results.wine-menu-portrait.webkite-light .filter-menu li {
     list-style-type: none;
     position: relative;
     padding-bottom: 0; }
-  #webkite-results.wine-menu-portrait .sort-menu li a, #webkite-results.wine-menu-portrait .filter-menu li .webkite-link, #webkite-results.wine-menu-portrait .filter-menu li a {
+  #webkite-results.wine-menu-portrait.webkite-light .sort-menu li a, #webkite-results.wine-menu-portrait.webkite-light .filter-menu li .webkite-link, #webkite-results.wine-menu-portrait.webkite-light .filter-menu li a {
     color: #1b9cd2;
     display: block;
     padding: 2px 10px;
     white-space: pre; }
-    #webkite-results.wine-menu-portrait .sort-menu li a:hover, #webkite-results.wine-menu-portrait .filter-menu li .webkite-link:hover, #webkite-results.wine-menu-portrait .filter-menu li a:hover {
+    #webkite-results.wine-menu-portrait.webkite-light .sort-menu li a:hover, #webkite-results.wine-menu-portrait.webkite-light .filter-menu li .webkite-link:hover, #webkite-results.wine-menu-portrait.webkite-light .filter-menu li a:hover {
       background: #1b9cd2;
       color: white; }
-  #webkite-results.wine-menu-portrait .sort-menu li.active a {
+  #webkite-results.wine-menu-portrait.webkite-light .sort-menu li.active a {
     position: relative;
     padding-right: 30px; }
-    #webkite-results.wine-menu-portrait .sort-menu li.active a.asc::after, #webkite-results.wine-menu-portrait .sort-menu li.active a.desc::after {
+    #webkite-results.wine-menu-portrait.webkite-light .sort-menu li.active a.asc::after, #webkite-results.wine-menu-portrait.webkite-light .sort-menu li.active a.desc::after {
       background: url("sort-direction.png") no-repeat;
       content: "";
       display: block;
@@ -411,22 +411,22 @@
       position: absolute;
       top: 8px;
       right: 10px; }
-    #webkite-results.wine-menu-portrait .sort-menu li.active a.asc::after {
+    #webkite-results.wine-menu-portrait.webkite-light .sort-menu li.active a.asc::after {
       background-position: 0 0; }
-    #webkite-results.wine-menu-portrait .sort-menu li.active a.desc::after {
+    #webkite-results.wine-menu-portrait.webkite-light .sort-menu li.active a.desc::after {
       background-position: 0 -5px; }
-  #webkite-results.wine-menu-portrait .filter-menu > li > .webkite-link {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-menu > li > .webkite-link {
     color: #1b9cd2;
     cursor: pointer;
     padding-right: 20px;
     position: relative; }
-    #webkite-results.wine-menu-portrait .filter-menu > li > .webkite-link::after {
+    #webkite-results.wine-menu-portrait.webkite-light .filter-menu > li > .webkite-link::after {
       color: rgba(0, 0, 0, 0.6);
       content: "\203A";
       opacity: 0.5;
       position: absolute;
       right: 6.66667px; }
-  #webkite-results.wine-menu-portrait .filter-menu-child {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-menu-child {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -444,11 +444,11 @@
     left: 100%;
     top: -10px;
     margin: 0; }
-  #webkite-results.wine-menu-portrait .filter-menu li:hover .filter-menu-child {
+  #webkite-results.wine-menu-portrait.webkite-light .filter-menu li:hover .filter-menu-child {
     display: block; }
 
 /******************************* FILTER OVERVIEW AND SHADE */
-#webkite-results.wine-menu-portrait .filter-token-wrapper.webkite-truncated:before {
+#webkite-results.wine-menu-portrait.webkite-light .filter-token-wrapper.webkite-truncated:before {
   content: "";
   background: url("gradient-fallback-light.png") repeat-y;
   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0.15) 25%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0) 100%);
@@ -464,7 +464,7 @@
   left: -1px;
   top: -1px;
   bottom: -1px; }
-#webkite-results.wine-menu-portrait .all-current-filters {
+#webkite-results.wine-menu-portrait.webkite-light .all-current-filters {
   -webkit-border-radius: 0 3px 3px 3px;
   -moz-border-radius: 0 3px 3px 3px;
   -ms-border-radius: 0 3px 3px 3px;
@@ -482,18 +482,18 @@
   right: -1px;
   left: -1px;
   z-index: 3; }
-  #webkite-results.wine-menu-portrait .all-current-filters .all-filters-wrapper {
+  #webkite-results.wine-menu-portrait.webkite-light .all-current-filters .all-filters-wrapper {
     white-space: normal; }
-    #webkite-results.wine-menu-portrait .all-current-filters .all-filters-wrapper > span:first-child {
+    #webkite-results.wine-menu-portrait.webkite-light .all-current-filters .all-filters-wrapper > span:first-child {
       padding-left: 0; }
-    #webkite-results.wine-menu-portrait .all-current-filters .all-filters-wrapper [class^="filter-group"] {
+    #webkite-results.wine-menu-portrait.webkite-light .all-current-filters .all-filters-wrapper [class^="filter-group"] {
       display: inline; }
 
 /********************************************* PAGINATION */
-#webkite-results.wine-menu-portrait {
+#webkite-results.wine-menu-portrait.webkite-light {
   /* page input */
   /* remove arrows */ }
-  #webkite-results.wine-menu-portrait .webkite-pagination-area {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-pagination-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -504,32 +504,32 @@
     display: inline-block;
     vertical-align: top;
     line-height: 34px; }
-    #webkite-results.wine-menu-portrait .webkite-pagination-area:empty {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-pagination-area:empty {
       display: none; }
-  #webkite-results.wine-menu-portrait .webkite-results-paginator {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-results-paginator {
     font-size: 14px; }
-    #webkite-results.wine-menu-portrait .webkite-results-paginator a, #webkite-results.wine-menu-portrait .webkite-results-paginator p {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-results-paginator a, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-paginator p {
       display: inline; }
-    #webkite-results.wine-menu-portrait .webkite-results-paginator em {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-results-paginator em {
       font-style: italic; }
-    #webkite-results.wine-menu-portrait .webkite-results-paginator a {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-results-paginator a {
       font-size: 1.2em;
       line-height: 0; }
-  #webkite-results.wine-menu-portrait .first-result-page, #webkite-results.wine-menu-portrait .previous-result-page {
+  #webkite-results.wine-menu-portrait.webkite-light .first-result-page, #webkite-results.wine-menu-portrait.webkite-light .previous-result-page {
     padding-right: 10px; }
-    #webkite-results.wine-menu-portrait .first-result-page.disabled, #webkite-results.wine-menu-portrait .previous-result-page.disabled {
+    #webkite-results.wine-menu-portrait.webkite-light .first-result-page.disabled, #webkite-results.wine-menu-portrait.webkite-light .previous-result-page.disabled {
       color: rgba(0, 0, 0, 0.6); }
-      #webkite-results.wine-menu-portrait .first-result-page.disabled:hover, #webkite-results.wine-menu-portrait .previous-result-page.disabled:hover {
+      #webkite-results.wine-menu-portrait.webkite-light .first-result-page.disabled:hover, #webkite-results.wine-menu-portrait.webkite-light .previous-result-page.disabled:hover {
         color: rgba(0, 0, 0, 0.6);
         cursor: default; }
-  #webkite-results.wine-menu-portrait .next-result-page, #webkite-results.wine-menu-portrait .last-result-page {
+  #webkite-results.wine-menu-portrait.webkite-light .next-result-page, #webkite-results.wine-menu-portrait.webkite-light .last-result-page {
     padding-left: 10px; }
-    #webkite-results.wine-menu-portrait .next-result-page.disabled, #webkite-results.wine-menu-portrait .last-result-page.disabled {
+    #webkite-results.wine-menu-portrait.webkite-light .next-result-page.disabled, #webkite-results.wine-menu-portrait.webkite-light .last-result-page.disabled {
       color: rgba(0, 0, 0, 0.6); }
-      #webkite-results.wine-menu-portrait .next-result-page.disabled:hover, #webkite-results.wine-menu-portrait .last-result-page.disabled:hover {
+      #webkite-results.wine-menu-portrait.webkite-light .next-result-page.disabled:hover, #webkite-results.wine-menu-portrait.webkite-light .last-result-page.disabled:hover {
         color: rgba(0, 0, 0, 0.6);
         cursor: default; }
-  #webkite-results.wine-menu-portrait input.webkite-page-input {
+  #webkite-results.wine-menu-portrait.webkite-light input.webkite-page-input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -549,10 +549,10 @@
     font-size: 0.9em;
     line-height: 16px;
     text-align: center; }
-  #webkite-results.wine-menu-portrait .webkite-page-input::-webkit-outer-spin-button, #webkite-results.wine-menu-portrait .webkite-page-input::-webkit-inner-spin-button {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-page-input::-webkit-outer-spin-button, #webkite-results.wine-menu-portrait.webkite-light .webkite-page-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
-  #webkite-results.wine-menu-portrait input[type=number] {
+  #webkite-results.wine-menu-portrait.webkite-light input[type=number] {
     -moz-appearance: textfield; }
 
 /************************************** ELEMENT QUERIES */
@@ -590,7 +590,7 @@
   padding-left: 0; }
 
 /********************************************** BLOCKS */
-#webkite-results.wine-menu-portrait .webkite-block-group {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-block-group {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -598,7 +598,7 @@
   vertical-align: top;
   text-align: left;
   position: relative; }
-#webkite-results.wine-menu-portrait .webkite-block {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-block {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -607,21 +607,21 @@
   text-align: left;
   padding-left: 20px;
   width: 100%; }
-  #webkite-results.wine-menu-portrait .webkite-block.webkite-block-thirty {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-block.webkite-block-thirty {
     width: 30%; }
-  #webkite-results.wine-menu-portrait .webkite-block.webkite-block-forty {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-block.webkite-block-forty {
     width: 40%; }
-  #webkite-results.wine-menu-portrait .webkite-block.webkite-block-fifty {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-block.webkite-block-fifty {
     width: 50%; }
-  #webkite-results.wine-menu-portrait .webkite-block.webkite-block-sixty {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-block.webkite-block-sixty {
     width: 60%; }
-  #webkite-results.wine-menu-portrait .webkite-block.webkite-block-seventy {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-block.webkite-block-seventy {
     width: 70%; }
 
 /************************************ PORTRAIT RESULTS */
-#webkite-results.wine-menu-portrait .webkite-results-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-results-wrapper {
   margin-left: -20px; }
-#webkite-results.wine-menu-portrait .webkite-result-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-result-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -632,14 +632,14 @@
   display: inline-block;
   vertical-align: top;
   line-height: 1.25; }
-#webkite-results.wine-menu-portrait .webkite-result {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-result {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.1); }
-#webkite-results.wine-menu-portrait .webkite-image-block {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-image-block {
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   -ms-border-radius: 3px 3px 0 0;
@@ -649,19 +649,19 @@
   background: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background-clip: padding-box; }
-  #webkite-results.wine-menu-portrait .webkite-image-block + .webkite-result-body {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-image-block + .webkite-result-body {
     -webkit-border-radius: 0 0 3px 3px;
     -moz-border-radius: 0 0 3px 3px;
     -ms-border-radius: 0 0 3px 3px;
     -o-border-radius: 0 0 3px 3px;
     border-radius: 0 0 3px 3px; }
-#webkite-results.wine-menu-portrait .webkite-image-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-image-wrapper {
   display: block;
   width: 100%;
   height: 0;
   padding-bottom: 100%;
   position: relative; }
-  #webkite-results.wine-menu-portrait .webkite-image-wrapper img {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-image-wrapper img {
     display: block;
     margin: auto;
     max-width: 100%;
@@ -671,7 +671,7 @@
     bottom: 0;
     right: 0;
     left: 0; }
-#webkite-results.wine-menu-portrait .webkite-result-body {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-result-body {
   -webkit-border-radius: 3px 3px;
   -moz-border-radius: 3px 3px;
   -ms-border-radius: 3px 3px;
@@ -679,12 +679,12 @@
   border-radius: 3px 3px;
   background: rgba(255, 255, 255, 0.5);
   padding: 8px; }
-#webkite-results.wine-menu-portrait .webkite-headline {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-headline {
   text-align: center;
   margin-bottom: 5px; }
-  #webkite-results.wine-menu-portrait .webkite-headline .webkite-wine-name {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-headline .webkite-wine-name {
     display: inline-block; }
-#webkite-results.wine-menu-portrait .webkite-subheadline {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-subheadline {
   margin-bottom: 10px;
   font-family: 'Libre Baskerville', 'Georgia', serif;
   font-style: italic;
@@ -692,28 +692,28 @@
   line-height: 1;
   color: rgba(0, 0, 0, 0.6);
   text-align: center; }
-  #webkite-results.wine-menu-portrait .webkite-subheadline:empty {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-subheadline:empty {
     display: none; }
-#webkite-results.wine-menu-portrait .webkite-vintage + .webkite-varietal:before {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-vintage + .webkite-varietal:before {
   content: '\2022';
   color: rgba(0, 0, 0, 0.6);
   padding: 0 4px 0 5px;
   opacity: 0.3;
   font-style: normal; }
-#webkite-results.wine-menu-portrait .webkite-varietal > a {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-varietal > a {
   display: inline-block; }
-#webkite-results.wine-menu-portrait .webkite-providence {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-providence {
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.6); }
-  #webkite-results.wine-menu-portrait .webkite-providence span {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-providence span {
     opacity: 0.5; }
-  #webkite-results.wine-menu-portrait .webkite-providence:empty {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-providence:empty {
     display: none; }
-  #webkite-results.wine-menu-portrait .webkite-providence a + a:before, #webkite-results.wine-menu-portrait .webkite-providence span + span:before, #webkite-results.wine-menu-portrait .webkite-providence a + span:before, #webkite-results.wine-menu-portrait .webkite-providence span + a:before {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-providence a + a:before, #webkite-results.wine-menu-portrait.webkite-light .webkite-providence span + span:before, #webkite-results.wine-menu-portrait.webkite-light .webkite-providence a + span:before, #webkite-results.wine-menu-portrait.webkite-light .webkite-providence span + a:before {
     content: ", "; }
-#webkite-results.wine-menu-portrait .webkite-prices {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-prices {
   margin-top: 10px; }
-#webkite-results.wine-menu-portrait .webkite-price {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-price {
   display: inline-block;
   font-family: 'Libre Baskerville', 'Georgia', serif;
   font-size: 1em;
@@ -721,13 +721,13 @@
   width: 100%;
   text-align: center;
   color: rgba(0, 0, 0, 0.7); }
-#webkite-results.wine-menu-portrait .webkite-price-value {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-price-value {
   display: inline-block;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
-#webkite-results.wine-menu-portrait .webkite-price-label {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-price-label {
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 0.86em;
   text-transform: uppercase;
@@ -742,11 +742,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
-#webkite-results.wine-menu-portrait .webkite-result-foot {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-result-foot {
   text-align: center;
   font-size: 13px;
   margin-top: 10px; }
-#webkite-results.wine-menu-portrait a.more-button, #webkite-results.wine-menu-portrait a.less-button {
+#webkite-results.wine-menu-portrait.webkite-light a.more-button, #webkite-results.wine-menu-portrait.webkite-light a.less-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -761,20 +761,20 @@
   font: 400 12px/1 'Open Sans', 'Arial', sans-serif;
   padding: 4px 10px;
   text-align: center; }
-#webkite-results.wine-menu-portrait a.more-button {
+#webkite-results.wine-menu-portrait.webkite-light a.more-button {
   background: none; }
-  #webkite-results.wine-menu-portrait a.more-button:hover {
+  #webkite-results.wine-menu-portrait.webkite-light a.more-button:hover {
     background: rgba(0, 0, 0, 0.1);
     border-color: rgba(0, 0, 0, 0.1); }
-#webkite-results.wine-menu-portrait a.less-button {
+#webkite-results.wine-menu-portrait.webkite-light a.less-button {
   background: rgba(0, 0, 0, 0.6);
   border-color: transparent;
   color: rgba(255, 255, 255, 0.95); }
-  #webkite-results.wine-menu-portrait a.less-button:hover {
+  #webkite-results.wine-menu-portrait.webkite-light a.less-button:hover {
     background: rgba(0, 0, 0, 0.6); }
 
 /*************************************** DETAILS MODAL */
-#webkite-results.wine-menu-portrait .webkite-item-details {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-item-details {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -797,7 +797,7 @@
   left: 50% \9;
   margin-left: -350px\9;
   margin-right: 0\9; }
-#webkite-results.wine-menu-portrait .webkite-result-modal {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-result-modal {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -815,7 +815,7 @@
   position: relative;
   max-height: 100%;
   text-align: justify; }
-  #webkite-results.wine-menu-portrait .webkite-result-modal > .webkite-toggle-item {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-result-modal > .webkite-toggle-item {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -833,23 +833,23 @@
     right: -12px;
     border: 2px solid rgba(255, 255, 255, 0.95);
     z-index: 2; }
-#webkite-results.wine-menu-portrait .webkite-modal-content {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content {
   max-height: 62vh;
   padding-right: 12px;
   padding-left: 5px;
   overflow: hidden;
   overflow-y: auto; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-result {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-result {
     border: none;
     padding-bottom: 20px; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-image-wrapper {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-image-wrapper {
     text-align: left;
     display: inline-block;
     vertical-align: top;
     width: 100%;
     height: auto;
     padding-bottom: 0; }
-    #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-image-wrapper img {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-image-wrapper img {
       max-height: none;
       margin: 0;
       max-width: 100%;
@@ -857,7 +857,7 @@
       display: block;
       position: relative;
       z-index: 1; }
-    #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-image-wrapper + .webkite-result-body {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-image-wrapper + .webkite-result-body {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -865,38 +865,38 @@
       display: inline-block;
       position: relative;
       width: 100%; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-result-body {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-result-body {
     padding: 0; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-subheadline {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-subheadline {
     text-align: left;
     line-height: 1.1;
     font-size: 0.9em;
     margin-bottom: 2px; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-headline {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-headline {
     margin-bottom: 4px;
     text-align: left; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-prices-wrap {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-prices-wrap {
     position: absolute;
     top: 0;
     bottom: 20px; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-prices {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-prices {
     height: 100%;
     display: table;
     table-layout: fixed;
     margin-top: 0;
     width: 100%; }
-    #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-prices > .webkite-block {
+    #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-prices > .webkite-block {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-price {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-price {
     display: inline-block;
     font-size: 1.3em; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-price-label {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-price-label {
     font-size: 0.65em;
     text-transform: uppercase;
     display: inline-block; }
-#webkite-results.wine-menu-portrait .webkite-modal-foot {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-modal-foot {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -908,11 +908,11 @@
   left: 0;
   right: 0;
   bottom: 0; }
-  #webkite-results.wine-menu-portrait .webkite-modal-foot > a {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-foot > a {
     display: block;
     padding: 10px;
     line-height: 19px; }
-#webkite-results.wine-menu-portrait .webkite-modal-blocking {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-modal-blocking {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -929,117 +929,117 @@
   z-index: 3; }
 
 /* single prices layout shift */
-#webkite-results.wine-menu-portrait {
+#webkite-results.wine-menu-portrait.webkite-light {
   /* main content */
   /* modal content */ }
-  #webkite-results.wine-menu-portrait .webkite-prices.webkite-prices-single > .webkite-block {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-prices.webkite-prices-single > .webkite-block {
     width: 100%; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-prices-single > .webkite-block-seventy {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-prices-single > .webkite-block-seventy {
     width: 85%; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-prices-single > .webkite-block-thirty {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-prices-single > .webkite-block-thirty {
     width: 15%; }
-  #webkite-results.wine-menu-portrait .webkite-modal-content .webkite-prices-single .webkite-prices > .webkite-block {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-modal-content .webkite-prices-single .webkite-prices > .webkite-block {
     width: 100%; }
 
 /******************************************* NO RESULTS */
-#webkite-results.wine-menu-portrait .webkite-no-results {
+#webkite-results.wine-menu-portrait.webkite-light .webkite-no-results {
   padding: 0 0 20px 0;
   margin-bottom: 20px;
   border-bottom: 1px dotted rgba(0, 0, 0, 0.1); }
 
 /************************************** ELEMENT QUERIES */
-#webkite-results.wine-menu-portrait.xs .webkite-result-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light.xs .webkite-result-wrapper {
   width: 100%; }
-#webkite-results.wine-menu-portrait.xs .webkite-block.webkite-block-seventy {
+#webkite-results.wine-menu-portrait.webkite-light.xs .webkite-block.webkite-block-seventy {
   width: 100%; }
-#webkite-results.wine-menu-portrait.xs .webkite-item-details {
+#webkite-results.wine-menu-portrait.webkite-light.xs .webkite-item-details {
   width: 100% \9;
   max-width: 100% \9;
   margin: 0\9;
   left: 0\9; }
-#webkite-results.wine-menu-portrait.xs .webkite-result-modal {
+#webkite-results.wine-menu-portrait.webkite-light.xs .webkite-result-modal {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 10px; }
-#webkite-results.wine-menu-portrait.xs .webkite-modal-content {
+#webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content {
   padding-right: 5px; }
-  #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-result {
+  #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-result {
     padding-bottom: 10px; }
-  #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-image-wrapper {
+  #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-image-wrapper {
     margin-bottom: 8px; }
-    #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-image-wrapper img {
+    #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-image-wrapper img {
       width: 100%; }
-  #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-result-body .webkite-prices {
+  #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-result-body .webkite-prices {
     margin-top: 5px;
     width: auto; }
-    #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-result-body .webkite-prices > .webkite-block {
+    #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-result-body .webkite-prices > .webkite-block {
       width: 50%;
       display: inline-block;
       text-align: left; }
-  #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-result-body .webkite-price {
+  #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-result-body .webkite-price {
     display: inline;
     font-size: 1.1em;
     text-align: left; }
-  #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-result-body .webkite-price-value {
+  #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-result-body .webkite-price-value {
     vertical-align: bottom; }
-  #webkite-results.wine-menu-portrait.xs .webkite-modal-content .webkite-result-body .webkite-price-label {
+  #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-modal-content .webkite-result-body .webkite-price-label {
     font-size: 11px;
     display: inline-block;
     width: auto;
     overflow: hidden;
     vertical-align: bottom; }
 
-#webkite-results.wine-menu-portrait.sm .webkite-block.webkite-block-seventy {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-block.webkite-block-seventy {
   width: 100%; }
-#webkite-results.wine-menu-portrait.sm .webkite-result-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-result-wrapper {
   width: 50%; }
-#webkite-results.wine-menu-portrait.sm .webkite-item-details {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-item-details {
   width: 100% \9;
   max-width: 100% \9;
   margin: 0\9;
   left: 0\9; }
-#webkite-results.wine-menu-portrait.sm .webkite-modal-content .webkite-image-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-modal-content .webkite-image-wrapper {
   width: 150px;
   margin-right: -150px; }
-  #webkite-results.wine-menu-portrait.sm .webkite-modal-content .webkite-image-wrapper + .webkite-result-body {
+  #webkite-results.wine-menu-portrait.webkite-light.sm .webkite-modal-content .webkite-image-wrapper + .webkite-result-body {
     padding-left: 170px; }
-#webkite-results.wine-menu-portrait.sm .webkite-modal-content .webkite-result-body .webkite-prices {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-modal-content .webkite-result-body .webkite-prices {
   margin-top: 5px;
   width: auto; }
-  #webkite-results.wine-menu-portrait.sm .webkite-modal-content .webkite-result-body .webkite-prices > .webkite-block {
+  #webkite-results.wine-menu-portrait.webkite-light.sm .webkite-modal-content .webkite-result-body .webkite-prices > .webkite-block {
     display: inline-block;
     vertical-align: top;
     text-align: left; }
-#webkite-results.wine-menu-portrait.sm .webkite-modal-content .webkite-result-body .webkite-price {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-modal-content .webkite-result-body .webkite-price {
   display: inline;
   font-size: 1.3em;
   text-align: left; }
-#webkite-results.wine-menu-portrait.sm .webkite-modal-content .webkite-result-body .webkite-price-value {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-modal-content .webkite-result-body .webkite-price-value {
   vertical-align: bottom; }
-#webkite-results.wine-menu-portrait.sm .webkite-modal-content .webkite-result-body .webkite-price-label {
+#webkite-results.wine-menu-portrait.webkite-light.sm .webkite-modal-content .webkite-result-body .webkite-price-label {
   font-size: 12px;
   display: inline-block;
   width: auto;
   overflow: hidden;
   vertical-align: bottom; }
 
-#webkite-results.wine-menu-portrait.md .webkite-modal-content .webkite-image-wrapper {
+#webkite-results.wine-menu-portrait.webkite-light.md .webkite-modal-content .webkite-image-wrapper {
   width: 100px;
   margin-right: -100px; }
-  #webkite-results.wine-menu-portrait.md .webkite-modal-content .webkite-image-wrapper + .webkite-result-body {
+  #webkite-results.wine-menu-portrait.webkite-light.md .webkite-modal-content .webkite-image-wrapper + .webkite-result-body {
     padding-left: 120px; }
-#webkite-results.wine-menu-portrait.md .webkite-modal-content .webkite-prices-wrap {
+#webkite-results.wine-menu-portrait.webkite-light.md .webkite-modal-content .webkite-prices-wrap {
   padding-left: 0; }
-#webkite-results.wine-menu-portrait.md .webkite-modal-content .webkite-prices {
+#webkite-results.wine-menu-portrait.webkite-light.md .webkite-modal-content .webkite-prices {
   margin-left: 0; }
-#webkite-results.wine-menu-portrait.md .webkite-modal-content .webkite-price-label {
+#webkite-results.wine-menu-portrait.webkite-light.md .webkite-modal-content .webkite-price-label {
   width: 100%;
   display: block;
   margin-top: -2px; }
 
 /* ie 10/11 modal fixes */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  #webkite-results.wine-menu-portrait .webkite-item-details {
+  #webkite-results.wine-menu-portrait.webkite-light .webkite-item-details {
     left: 0;
     right: 0;
     width: auto;
@@ -1049,13 +1049,13 @@
     margin-right: -50%;
     -ms-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%); }
-  #webkite-results.wine-menu-portrait.xs .webkite-item-details {
+  #webkite-results.wine-menu-portrait.webkite-light.xs .webkite-item-details {
     max-width: 700px;
     width: auto;
     left: 0;
     margin-left: 50%;
     margin-right: -50%; }
-  #webkite-results.wine-menu-portrait.sm .webkite-item-details {
+  #webkite-results.wine-menu-portrait.webkite-light.sm .webkite-item-details {
     max-width: 700px;
     width: auto;
     left: 0;
@@ -1063,15 +1063,15 @@
     margin-right: -50%; } }
 
 /*************************** DISPLAY RULES */
-#webkite-results.wine-menu-portrait.xs .md-only {
+#webkite-results.wine-menu-portrait.webkite-light.xs .md-only {
   display: none; }
-#webkite-results.wine-menu-portrait.xs .until-md {
+#webkite-results.wine-menu-portrait.webkite-light.xs .until-md {
   display: block; }
 
-#webkite-results.wine-menu-portrait.sm .md-only {
+#webkite-results.wine-menu-portrait.webkite-light.sm .md-only {
   display: none; }
-#webkite-results.wine-menu-portrait.sm .until-md {
+#webkite-results.wine-menu-portrait.webkite-light.sm .until-md {
   display: block; }
 
-#webkite-results.wine-menu-portrait.md .until-md {
+#webkite-results.wine-menu-portrait.webkite-light.md .until-md {
   display: none; }
