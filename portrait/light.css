@@ -105,7 +105,7 @@
     position: relative; }
   #webkite-results.wine-menu-portrait.webkite-light .webkite-results-header .webkite-branding-area a, #webkite-results.wine-menu-portrait.webkite-light .webkite-results-footer .webkite-branding-area a {
     background: url("branding-light.svg") center top no-repeat;
-    background-size: 100%;
+    background-size: 102px 33px;
     display: inline-block;
     height: 34px;
     width: 102px; }
