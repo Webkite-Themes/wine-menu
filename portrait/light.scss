@@ -152,6 +152,9 @@ $itemBackground: rgba(255,255,255,.5);
   .webkite-varietal > a {
     display:inline-block;
     }
+  .webkite-varietal wbr:after{
+    content: "\00200B";
+    }
   .webkite-providence {
     margin-top:$mainGutter/2.5;
     color:$lightOpacity;
