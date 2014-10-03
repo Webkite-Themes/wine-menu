@@ -91,6 +91,11 @@
 #webkite-results.wine-menu-landscape-international.webkite-dark p, #webkite-results.wine-menu-landscape-international.webkite-dark li {
   color: rgba(255, 255, 255, 0.7); }
 
+/******************************************** GENERAL */
+#webkite-results.wine-menu-landscape-international.webkite-dark {
+  text-align: left;
+  direction: ltr; }
+
 /******************************************** NAVIGATIONALS */
 #webkite-results.wine-menu-landscape-international.webkite-dark .webkite-results-header, #webkite-results.wine-menu-landscape-international.webkite-dark .webkite-results-footer {
   text-align: justify;
